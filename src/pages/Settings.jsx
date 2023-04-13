@@ -1,7 +1,6 @@
 import React from "react";
+import SettingsBlock from "Components/SettingsBlock";
 
-const Settings = () => {
-  return "Settings";
-};
+const Settings = () => <SettingsBlock />;
 
 export default Settings;

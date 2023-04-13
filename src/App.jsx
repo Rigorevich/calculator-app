@@ -4,13 +4,15 @@ import Header from "./components/Header";
 import Home from "Pages/Home";
 import Settings from "Pages/Settings";
 
-import { theme } from "Constants";
 import { Routes, Route } from "react-router-dom";
 import { ThemeProvider } from "styled-components";
+import { useSelector } from "react-redux";
 
 const App = () => {
+  const theme = useSelector((state) => state.theme);
+
   return (
-    <ThemeProvider theme={theme.dark}>
+    <ThemeProvider theme={theme}>
       <GlobalStyle />
       <Header />
       <Routes>
