@@ -7,6 +7,7 @@ export const themes = [
     text: "#F8F8F8",
     accent: "#ab68ab",
     board: "#fff",
+    btnBg: "#736f6f",
   },
   {
     name: "Light",
@@ -16,5 +17,6 @@ export const themes = [
     text: "#333333",
     accent: "#FFA500",
     board: "#000",
+    btnBg: "#f2f2f2",
   },
 ];

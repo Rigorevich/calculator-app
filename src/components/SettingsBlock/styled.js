@@ -50,6 +50,7 @@ export const ListItem = styled.div`
   transition: opacity easy-it-out 0.2s;
   border-bottom: 1px solid ${(props) => props.theme.board};
   padding: 0.5em 1em;
+  transition: background 0.2s;
 
   &:hover {
     background: rgba(0, 0, 0, 0.2);
@@ -67,11 +68,16 @@ export const Button = styled.button`
   color: ${(props) => props.theme.text};
   font-weight: 500;
   font-size: 1.3rem;
-  background: ${(props) => props.theme.accent};
+  background-color: ${(props) => props.theme.btnBg};
   text-align: left;
   cursor: pointer;
+  transition: opacity 0.2s;
 
   &:hover {
     opacity: 0.8;
+  }
+
+  &:active {
+    box-shadow: ;
   }
 `;

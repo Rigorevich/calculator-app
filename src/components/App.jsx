@@ -1,6 +1,6 @@
 import React from "react";
-import GlobalStyle from "./globalStyles";
-import Header from "./components/Header";
+import GlobalStyle from "../globalStyles";
+import Header from "Components/Header";
 import Home from "Pages/Home";
 import Settings from "Pages/Settings";
 
