@@ -21,4 +21,10 @@ export const HList = styled.ul`
 export const HItem = styled.li`
   font-size: 26px;
   font-weight: 500;
+  cursor: pointer;
+  transition: opacity 0.2s;
+
+  &:hover {
+    opacity: 0.5;
+  }
 `;
