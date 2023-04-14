@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 export const HeaderBlock = styled.header`
-  background-color: ${(props) => props.theme.primary};
+  background-color: ${(props) => props.theme.headerBg};
 `;
 
 export const Container = styled.div`
