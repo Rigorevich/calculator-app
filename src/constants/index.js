@@ -1,6 +1,7 @@
 export const themes = [
   {
     name: "Dark",
+    headerBg: "#000000",
     primary: "#000070",
     secondary: "#FFA500",
     background: "#333333",
@@ -8,9 +9,11 @@ export const themes = [
     accent: "#ab68ab",
     board: "#fff",
     btnBg: "#736f6f",
+    invert: "1",
   },
   {
     name: "Light",
+    headerBg: "#3489DB",
     primary: "#3498DB",
     secondary: "#9B59B6",
     background: "#FFFFFF",
@@ -18,5 +21,6 @@ export const themes = [
     accent: "#FFA500",
     board: "#000",
     btnBg: "#f2f2f2",
+    invert: "0",
   },
 ];
