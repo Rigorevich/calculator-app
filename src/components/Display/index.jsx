@@ -4,7 +4,7 @@ import { DBox, DInput } from "./styled";
 const Display = () => {
   return (
     <DBox>
-      <DInput />
+      <DInput disabled />
     </DBox>
   );
 };

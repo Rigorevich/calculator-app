@@ -28,6 +28,8 @@ const operationReducer = (state = initialState, action) => {
     case "ADD_OPERATION":
       state.push(action.payload);
       return state;
+    case "CLEAR_HISTORY":
+      return [];
     default:
       return state;
   }
